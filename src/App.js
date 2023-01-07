@@ -1,11 +1,10 @@
-import ColoredParagraph from './components/paragraph/colored-paragraph.js';
-import Button from './components/button/button.js';
+import { ColoredParagraph } from './components/paragraph';
+import { Button } from './components/button';
 
 function App(){
 	return (
 		<>
-			<ColoredParagraph upperText={'uppercase'} textColor={'green'} title={'wellcome to the my code'}>
-			</ColoredParagraph>
+			<ColoredParagraph textColor={'green'}>wellcome to the my code</ColoredParagraph>
 
 			<Button label={'GO INTZ'}/>
 		</>
